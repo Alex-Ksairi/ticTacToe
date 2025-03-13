@@ -107,15 +107,7 @@ h1 {
 .board.circle .cell:not(.x):not(.circle):hover::before,
 .board.circle .cell:not(.x):not(.circle):hover::after {
     content: '';
-    /* width: var(--mark-size);
-    height: var(--mark-size); */
-    /* background-color: black; */
-
-    /* either this way */
-    /* border: 14px solid black; */
-
     border-radius: 50%;
-
     position: absolute;
 }
 
@@ -124,7 +116,6 @@ h1 {
 .board.circle .cell:not(.x):not(.circle):hover::before {
     width: var(--mark-size);
     height: var(--mark-size);
-    /* background-color: black;  */
 }
 
 .cell.circle::after,
