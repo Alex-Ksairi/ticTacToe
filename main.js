@@ -1,5 +1,3 @@
-// let's code here
-
 let xClass = "x";
 let circleClass = "circle";
 
